@@ -64,7 +64,7 @@ if(NCA == NLB):             #Verifica se a COLUNA de A é = a LINHA de B
     print()
     print("Matriz C")
     for i in range(0, NLA):
-        for j in range(0, NLA):
+        for j in range(0, NCB):
             print("%5.1f" %C[i][j], end=" ")
         print()
     print()
